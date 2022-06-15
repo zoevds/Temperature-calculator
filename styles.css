@@ -1,0 +1,49 @@
+body {
+  background-color: #104f55;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+}
+
+.card {
+  height: 380px;
+  width: 250px;
+  box-shadow: 8px 8px 15px #c8d3d5;
+  border-radius: 9px;
+  margin: 25px;
+  background-color: white;
+  background-color: #32746d;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  padding: 20px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#paragraph {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+#celsius,
+#fahrenheit {
+  border-radius: 8px;
+  height: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
